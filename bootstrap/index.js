@@ -12,7 +12,7 @@ const mainApp = () =>{
     if(database.sync.force){
         db.sequelize.sync({force:true})
     }
-app.use('/',route )
+app.use('/',route)
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
