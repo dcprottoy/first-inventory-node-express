@@ -4,7 +4,7 @@ const controller = require('../controller/userAuthController');
 // middleware that is specific to this router
 router.use((req, res, next) => {
 //   console.log('Time: ', database)
-            print();
+          
   next()
 })
 // define the home page route
